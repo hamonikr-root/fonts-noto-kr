@@ -1,0 +1,30 @@
+Source: fonts-noto-kr
+Priority: optional
+Section: fonts
+Build-Depends: debhelper (>= 9),
+               dpkg (>= 1.16.2),
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>
+ Vasudev Kamath <kamathvasudev@gmail.com>
+Standards-Version: 3.9.5
+Homepage: https://code.google.com/p/noto/
+Vcs-Git: git://anonscm.debian.org/pkg-fonts/fonts-noto.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-fonts/fonts-noto.git
+
+Package: fonts-noto-kr
+Architecture: all
+Multi-Arch: foreign
+Pre-Depends: dpkg (>= 1.15.7.2)
+Depends: ${misc:Depends}
+Description: "No Tofu" font families with large Unicode coverage
+ Noto is a collection of font families, each visually harmonized across
+ scripts.  This package contains the Noto font families with hinting:
+ .
+ ${fonts:familylist}
+ .
+ The name "Noto" is short for "No Tofu", describing the aim of covering
+ all living Unicode scripts
+ (currently ${fonts:scriptcount} are covered, at least partly).
+ .
+ Tofu (豆腐) is japanese jargon for the white box character "�" often
+ displayed as replacement for an unassigned or unknown character.

@@ -1,0 +1,40 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Noto
+Upstream-Contact: https://code.google.com/p/noto/issues/list
+ http://groups.google.com/group/noto-font
+Source: https://code.google.com/p/noto/downloads/
+
+Files: *
+Copyright: 2009,2011-2012, Google Corporation
+License: Apache-2.0
+
+Files: debian/*
+Copyright: 2013, Vasudev Kamath <kamathvasudev@gmail.com>
+ 2013, Jonas Smedegaard <dr@jones.dk>
+License: GPL-3+
+
+License: Apache-2.0
+ .
+ Comment:
+ .
+ On Debian systems the 'Apache License 2.0' is located in
+ '/usr/share/common-licenses/Apache-2.0'
+
+License: GPL-3+
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License as published by the
+ Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+ .
+ Comment:
+ .
+ On Debian systems the 'GNU General Public License' version 3 is located
+ in '/usr/share/common-licenses/GPL-3'.
+ .
+ You should have received a copy of the 'GNU General Public License'
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.

@@ -1,0 +1,25 @@
+fonts-noto-kr (1.000) trusty; urgency=medium
+
+  * rebuild 1.000 on trusty
+  * add fonts-noto-kr config
+
+ -- hamonikr <hamonikr@gmail.com>  Wed, 05 Nov 2014 16:19:38 +0900
+
+fonts-noto (2013-04-11-2) unstable; urgency=medium
+
+  * Adjust long description:
+    + Fix grammar (script amount is plural).
+    + Slightly refine note on tofu character.
+  * Fix use lowercase font dir (for consistency across font packages).
+    Closes: bug#737716. Thanks to Fabian Greffrath.
+  * Add git-buildpackage config, enabling pristine-tar and sighed tags.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Wed, 05 Feb 2014 13:51:58 +0100
+
+fonts-noto (2013-04-11-1) unstable; urgency=low
+
+  [ Vasudev Kamath & Jonas Smedegaard ]
+  * Initial Release.
+    Closes: bug#712422.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Mon, 03 Feb 2014 12:34:39 +0100
